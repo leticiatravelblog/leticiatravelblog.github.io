@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Leticia's travel blog</title>
+        <!--[if lt IE9]>
+        <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <meta name="description" content="Travel tips and pictures">
+        <meta charset="utf-8">
+        <meta name="keywords" content="travel, pictures, South America, USA, Europe, Bahamas">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row header">
+                <div class="col-lg-10 col-md-10 col-sm-8 col-xs-7 text-capitalize">
+                    <h1 class="title-super">leticia's travel blog</h1>
+                    <h3>pictures and tips about travel</h3>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-4 col-xs-5 img-1">
+                    <img class="img-responsive pull-right" src="website/1.jpg" alt="travel picture">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12"><hr></div>
+            </div>
+            <div class="row text-left text-uppercase">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                    <a href="Travel_Blog.html" class="btn btn-default" role="button">home</a>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                    <a href="About/about.html" class="btn btn-default" role="button">about</a>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                    <a href="contact/contact.html" class="btn btn-default" role="button">contact</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12"><hr></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-10 col-md-10 col-sm-8 col-xs-8 description">
+                    <p>
+                        This website was created in order to support my learning process, allowing me to code and deploy something from scratch, applying the knowledge acquired with online courses, you tube videos and tutorials, and learning that working with code is a fun and interesting challenge. Only 'The Bahamas' link works for now.
+                    </p>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 img-2">
+                    <img class="img-circle pull-right img-responsive" src="website/2.jpg" alt="travel picture 2">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12"><hr></div>
+            </div>
+            <div class="row text-center maps">
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 img-2">
+                    <h3 class="text-uppercase">south america</h3>
+                    <img class="cur_1 img-responsive center-block img-circle" src="website/3.jpg" title="South America" alt="South America map" data-toggle="modal" data-target="#south_america">
+                    <p>
+                        <a class="south-america-link" href="https://en.wikipedia.org/wiki/South_America">Read more on wikipedia</a>
+                    </p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <h3 class="text-uppercase">usa</h3>
+                    <img class="cur_1 img-responsive center-block img-circle" src="website/4.jpg" title="USA" alt="USA map" data-toggle="modal" data-target="#usa">
+                    <p>
+                        <a class="usa-link" href="https://en.wikipedia.org/wiki/United_States">Read more on wikipedia</a>
+                    </p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <h3 class="text-uppercase">europe</h3>
+                    <img class="cur_1 img-responsive center-block img-circle" src="website/5.jpg" title="Europe" alt="Europe map" data-toggle="modal" data-target="#europe">
+                    <p>
+                        <a class="europe-link" href="https://en.wikipedia.org/wiki/Europe">Read more on wikipedia</a>
+                    </p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <h3 class="text-uppercase">the bahamas</h3>
+                    <img class="cur_1 img-responsive center-block img-circle" src="website/6.jpg" title="Bahamas" alt="the Bahamas map" data-toggle="modal" data-target="#bahamas">
+                    <p>
+                        <a class="the bahamas-link" href="https://en.wikipedia.org/wiki/The_Bahamas">Read more on wikipedia</a>
+                    </p>
+                </div>
+            </div>
+<!-- Modal LIVE DEMO south america-->
+            <div class="modal fade" id="south_america" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title text-uppercase" id="myModalLabel">south america</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img class="img-responsive" src="website/3.jpg">
+                                </div>
+                                <div class="col-md-8 pull-right">
+                                    <a href="#" class="btn btn-link" role="button">BRAZIL</a>
+                                    <a href="#" class="btn btn-link" role="button">CHILE</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!-- Modal LIVE DEMO usa-->
+            <div class="modal fade" id="usa" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title text-uppercase" id="myModalLabel">usa</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img class="img-responsive" src="website/4.jpg">
+                                </div>
+                                <div class="col-md-8 pull-right">
+                                    <a href="#" class="btn btn-link" role="button">NEW YORK</a>
+                                    <a href="#" class="btn btn-link" role="button">MICHIGAN</a>
+                                    <a href="#" class="btn btn-link" role="button">ILLINOIS</a>
+                                    <a href="#" class="btn btn-link" role="button">CALIFORNIA</a>
+                                    <a href="#" class="btn btn-link" role="button">NEVADA</a>
+                                    <a href="#" class="btn btn-link" role="button">TENNESSEE</a>
+                                    <a href="#" class="btn btn-link" role="button">GEORGIA</a>
+                                    <a href="#" class="btn btn-link" role="button">FLORIDA</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!-- Modal LIVE DEMO europe-->
+            <div class="modal fade" id="europe" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title text-uppercase" id="myModalLabel">europe</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img class="img-responsive" src="website/5.jpg">
+                                </div>
+                                <div class="col-md-8 pull-right">
+                                    <a href="#" class="btn btn-link" role="button">UNITED KINGDOM</a>
+                                    <a href="#" class="btn btn-link" role="button">FRANCE</a>
+                                    <a href="#" class="btn btn-link" role="button">NETHERLANDS</a>
+                                    <a href="#" class="btn btn-link" role="button">GERMANY</a>
+                                    <a href="#" class="btn btn-link" role="button">SWITZERLAND</a>
+                                    <a href="#" class="btn btn-link" role="button">ITALY</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!-- Modal LIVE DEMO bahamas-->
+            <div class="modal fade" id="bahamas" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title text-uppercase" id="myModalLabel">the bahamas</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img class="img-responsive img-circle" src="website/6.jpg">
+                                </div>
+                                <div class="col-md-8 pull-right">
+                                    <a href="bahamas/bahamas.html" class="btn btn-link" role="button">Cruise to Nassau and Cococay</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12"><hr></div>
+            </div>
+<!--footer-->
+            <div class="row footer">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                    <h3>Leticia's Travel Blog</h3>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-capitalize">
+                    <h5>
+                        <a class="footer-link" href="Travel_Blog.html">home</a>
+                    </h5>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-capitalize">
+                    <h5>
+                        <a class="footer-link" href="About/about.html">about</a>
+                    </h5>
+                </div>
+                <div class="col-lg-10 col-md-10 col-sm-8 col-xs-8 text-capitalize">
+                    <h5>
+                        <a class="footer-link" href="contact/contact.html">contact</a>
+                    </h5>
+                </div>
+                <div class="socialmedia pull-right">
+                    <a class="col-md-half" href="https://twitter.com/" title="Twitter's website">
+                        <img class="social-media img-responsive" src="Website/twitter-logo.jpg" alt="twitter-logo">
+                    </a>
+                    <a class="col-md-half" href="https://www.facebook.com/" title="Facebook's website">
+                        <img class="social-media img-responsive" src="Website/face-logo.jpg" alt="face-logo">
+                    </a>
+                    <a class="col-md-half" href="https://www.instagram.com/" title="Instragram's website">
+                        <img class="social-media img-responsive" src="Website/insta-logo.jpg" alt="insta-logo">
+                    </a>
+                </div>
+                <div class="col-md-12 copyright text-center">
+                    &copy; 2017 Leticia Bodo
+                </div>
+            </div>
+        </div><!--container-->
+    </body>
+</html>
