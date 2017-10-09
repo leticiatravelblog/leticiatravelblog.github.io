@@ -1,0 +1,75 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+    font-weight: 300;
+}
+
+.title-super {
+    font-size: 50px;
+}
+
+.header {
+    color: #c32293;
+    padding-top: 20px;
+}
+
+.img-1 {
+    max-width: 100%;
+    height: auto;
+}
+
+.btn-default {
+    background-color: rgb(228, 228, 228);
+}
+
+.img-2 {
+    max-width: 100%;
+    height: auto;
+}
+
+.maps {
+    color: black;
+}
+
+@media (max-width:387px) {
+    .title-super {
+        font-size: 43px;
+        }
+    h3 {
+        font-size: 23px;
+    }
+    .maps > .col-xs-6 {
+        padding: 0px;
+    }
+    .maps > .col-xs-6 > img {
+        max-width: 150px;
+        max-height: 150px;
+    }
+}
+
+.description {
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.cur_1 {
+    cursor: pointer;
+    padding-bottom: 20px;
+}
+
+.footer, .copyright {
+    background-color: rgb(228, 228, 228);
+    color: #c32293;
+}
+
+.footer-link {
+    color: #c32293;
+}
+
+.social-media {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 5px;
+}
