@@ -1,2 +1,2 @@
-# leticiatravelblog.github.io
+# http://leticiatravelblog.github.io
 My personal travel blog
